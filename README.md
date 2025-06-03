@@ -38,7 +38,7 @@ The entire solution is built in **Java 21**, uses only the official **PostgreSQL
 
 ## 3&nbsp;&nbsp;UML
 
-![System UML Diagram](./UML-1.png)
+![System UML Diagram](./UML.png)
 
 ---
 
