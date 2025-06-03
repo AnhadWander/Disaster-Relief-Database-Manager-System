@@ -67,7 +67,6 @@ The entire solution is built in **Java 21**, uses only the official **PostgreSQL
 ### 5.1 Create the PostgreSQL schema
 
 ```bash
-# open psql as a superuser (or any role with CREATEDB permissions)
 psql -U postgres
 
 -- 1) create a dedicated database
