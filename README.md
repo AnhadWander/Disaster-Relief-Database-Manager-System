@@ -62,12 +62,20 @@ The entire solution is built in **Java 21**, uses only the official **PostgreSQL
 
 ---
 
-## 5&nbsp;&nbsp;Running the Application  
+## 5  Database Setup & Running
+
+### 5.1 Create the PostgreSQL schema
 
 ```bash
-# 1 — compile
-javac -cp lib/postgresql-42.7.1.jar -d out $(find src -name "*.java")
+# open psql as a superuser (or any role with CREATEDB permissions)
+psql -U postgres
 
-# 2 — run (example chooses French)
-java -cp "out:lib/postgresql-42.7.1.jar" edu.ucalgary.oop.Main
-# follow on-screen prompts
+-- 1) create a dedicated database
+CREATE DATABASE ensf380project;
+
+-- 2) create a dedicated user with a strong password
+CREATE USER oop WITH ENCRYPTED PASSWORD 'ucalgary';
+
+-- 3) grant ownership / privileges
+GRANT ALL PRIVILEGES ON DATABASE ensf380project TO oop;
+\q
