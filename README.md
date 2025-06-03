@@ -36,7 +36,7 @@ The entire solution is built in **Java 21**, uses only the official **PostgreSQL
 
 ---
 
-## 3&nbsp;&nbsp;UML
+## 3&nbsp;&nbsp;UML Diagram
 
 The UML diagram below illustrates the full object-oriented structure of the application.  
 It was used throughout development to organize responsibilities across classes, define relationships such as inheritance (e.g., `Item` → `Water`, `Blanket`), and enforce separation of concerns.  
