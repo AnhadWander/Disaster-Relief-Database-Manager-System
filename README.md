@@ -1,4 +1,4 @@
-# Disaster-Relief Information System  
+# Disaster-Relief Database Manager System  
 *Command-Line Edition with PostgreSQL back-end & multi-language support*  
 
 ---
