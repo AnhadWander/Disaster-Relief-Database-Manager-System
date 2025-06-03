@@ -83,11 +83,11 @@ These principles guided the development and testing process, making the system e
 psql -U postgres
 
 -- 1) create a dedicated database
-CREATE DATABASE ensf380project;
+CREATE DATABASE disasterreliefproject;
 
 -- 2) create a dedicated user with a strong password
 CREATE USER oop WITH ENCRYPTED PASSWORD 'ucalgary';
 
 -- 3) grant ownership / privileges
-GRANT ALL PRIVILEGES ON DATABASE ensf380project TO oop;
+GRANT ALL PRIVILEGES ON DATABASE disasterreliefproject TO oop;
 \q
