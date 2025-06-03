@@ -1,0 +1,411 @@
+<translations>
+  <translation>
+    <key>welcome_message</key>
+    <value>Welcome to the Disaster Relief System!</value>
+  </translation>
+
+  <translation>
+    <key>db_connect_fail</key>
+    <value>Cannot connect to the database.</value>
+  </translation>
+
+  <translation>
+    <key>error_invalid_choice</key>
+    <value>Invalid choice. Please try again.</value>
+  </translation>
+
+  <translation>
+    <key>error_invalid_number</key>
+    <value>Invalid number. Enter an integer.</value>
+  </translation>
+
+  <translation>
+    <key>exit_goodbye</key>
+    <value>Exiting the system. Goodbye!</value>
+  </translation>
+
+  <translation>
+    <key>menu_main_title</key>
+    <value>========== Main Menu ==========</value>
+  </translation>
+  <translation>
+    <key>menu_option_1</key>
+    <value>1) Manage Victims</value>
+  </translation>
+  <translation>
+    <key>menu_option_2</key>
+    <value>2) Manage Inquiries</value>
+  </translation>
+  <translation>
+    <key>menu_option_3</key>
+    <value>3) Manage Supplies</value>
+  </translation>
+  <translation>
+    <key>menu_option_4</key>
+    <value>4) Manage Locations</value>
+  </translation>
+  <translation>
+    <key>menu_option_5</key>
+    <value>5) Exit</value>
+  </translation>
+  <translation>
+    <key>prompt_choice</key>
+    <value>Enter your choice:</value>
+  </translation>
+
+  <translation>
+    <key>menu_victims_title</key>
+    <value>--- Manage Victims ---</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_1</key>
+    <value>1) Add Victim</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_2</key>
+    <value>2) List Victims</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_3</key>
+    <value>3) Set Family Group</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_4</key>
+    <value>4) Add Medical Record</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_5</key>
+    <value>5) Search Person by ID</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_6</key>
+    <value>6) Edit Existing Victim</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_7</key>
+    <value>7) Edit Existing Medical Record</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_8</key>
+    <value>8) Return to Main Menu</value>
+  </translation>
+
+  <translation>
+    <key>prompt_add_victim_title</key>
+    <value>--- Add a New Victim ---</value>
+  </translation>
+  <translation>
+    <key>prompt_first_name</key>
+    <value>First Name: </value>
+  </translation>
+  <translation>
+    <key>prompt_last_name</key>
+    <value>Last Name: </value>
+  </translation>
+  <translation>
+    <key>prompt_birth_date</key>
+    <value>Birth Date (yyyy-mm-dd or blank): </value>
+  </translation>
+  <translation>
+    <key>prompt_gender_options</key>
+    <value>Select gender (1=Man, 2=Woman, 3=Non-binary): </value>
+  </translation>
+  <translation>
+    <key>prompt_phone</key>
+    <value>Phone number (optional): </value>
+  </translation>
+  <translation>
+    <key>victim_insert_success</key>
+    <value>Victim inserted successfully!</value>
+  </translation>
+  <translation>
+    <key>prompt_edit_victim_title</key>
+    <value>--- Edit Existing Victim ---</value>
+  </translation>
+  <translation>
+    <key>prompt_new_victim_name</key>
+    <value>New first name (blank=skip): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_victim_lastname</key>
+    <value>New last name (blank=skip): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_victim_dob</key>
+    <value>New birth date (yyyy-mm-dd, blank=skip): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_victim_gender</key>
+    <value>New gender (1=Man, 2=Woman, 3=Non-binary, blank=skip): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_victim_phone</key>
+    <value>New phone (blank=skip): </value>
+  </translation>
+  <translation>
+    <key>victim_update_success</key>
+    <value>Victim updated successfully!</value>
+  </translation>
+
+  <translation>
+    <key>menu_inquiries_title</key>
+    <value>--- Manage Inquiries ---</value>
+  </translation>
+  <translation>
+    <key>menu_inquiries_option_1</key>
+    <value>1) Log Inquiry</value>
+  </translation>
+  <translation>
+    <key>menu_inquiries_option_2</key>
+    <value>2) List Inquiries</value>
+  </translation>
+  <translation>
+    <key>menu_inquiries_option_3</key>
+    <value>3) Return to Main Menu</value>
+  </translation>
+  <translation>
+    <key>prompt_inquiry_title</key>
+    <value>--- Log an Inquiry ---</value>
+  </translation>
+  <translation>
+    <key>prompt_inquirer_id</key>
+    <value>Inquirer Person ID: </value>
+  </translation>
+  <translation>
+    <key>prompt_missing_id</key>
+    <value>Missing Person ID: </value>
+  </translation>
+  <translation>
+    <key>prompt_loc_id_or_zero</key>
+    <value>Location ID (or 0=null): </value>
+  </translation>
+  <translation>
+    <key>prompt_inquiry_date</key>
+    <value>Date of inquiry (yyyy-mm-dd or blank => 2025-01-01): </value>
+  </translation>
+  <translation>
+    <key>prompt_inquiry_comments</key>
+    <value>Comments: </value>
+  </translation>
+  <translation>
+    <key>inquiry_logged_success</key>
+    <value>Inquiry logged successfully.</value>
+  </translation>
+  <translation>
+    <key>list_inquiries_header</key>
+    <value>--- All Inquiries ---</value>
+  </translation>
+
+  <translation>
+    <key>menu_items_title</key>
+    <value>--- Manage Items (Supplies) ---</value>
+  </translation>
+  <translation>
+    <key>menu_items_option_1</key>
+    <value>1) Add New Supply</value>
+  </translation>
+  <translation>
+    <key>menu_items_option_2</key>
+    <value>2) Allocate Supply to Person</value>
+  </translation>
+  <translation>
+    <key>menu_items_option_3</key>
+    <value>3) Allocate Supply to Location</value>
+  </translation>
+  <translation>
+    <key>menu_items_option_4</key>
+    <value>4) List All Supplies</value>
+  </translation>
+  <translation>
+    <key>menu_items_option_5</key>
+    <value>5) Edit Existing Supply</value>
+  </translation>
+  <translation>
+    <key>menu_items_option_6</key>
+    <value>6) Return to Main Menu</value>
+  </translation>
+  <translation>
+    <key>prompt_add_supply_title</key>
+    <value>--- Add a New Supply ---</value>
+  </translation>
+
+  <translation>
+    <key>prompt_supply_type_choice</key>
+    <value>Select supply type (1= personal belonging, 2= blanket, 3= water, 4= cot): </value>
+  </translation>
+
+  <translation>
+    <key>prompt_supply_comments</key>
+    <value>Comments (optional): </value>
+  </translation>
+  <translation>
+    <key>supply_insert_success</key>
+    <value>Supply added successfully!</value>
+  </translation>
+
+  <translation>
+    <key>allocate_supply_person</key>
+    <value>--- Allocate Supply to Person ---</value>
+  </translation>
+  <translation>
+    <key>prompt_supply_id</key>
+    <value>Supply ID: </value>
+  </translation>
+  <translation>
+    <key>allocation_success</key>
+    <value>Supply allocated successfully.</value>
+  </translation>
+  <translation>
+    <key>allocate_supply_location</key>
+    <value>--- Allocate Supply to Location ---</value>
+  </translation>
+  <translation>
+    <key>list_supplies_header</key>
+    <value>--- All Supplies ---</value>
+  </translation>
+
+  <translation>
+    <key>prompt_edit_supply_title</key>
+    <value>--- Edit Existing Supply ---</value>
+  </translation>
+  <translation>
+    <key>prompt_existing_supply_id</key>
+    <value>Enter existing Supply ID to edit: </value>
+  </translation>
+  <translation>
+    <key>prompt_new_supply_type</key>
+    <value>Enter new supply type (blank=skip): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_supply_comments</key>
+    <value>Enter new comments (blank=skip): </value>
+  </translation>
+  <translation>
+    <key>update_supply_success</key>
+    <value>Supply updated successfully!</value>
+  </translation>
+
+  <translation>
+    <key>prompt_cot_room</key>
+    <value>Enter numeric room for cot: </value>
+  </translation>
+  <translation>
+    <key>error_invalid_room</key>
+    <value>Room must be numeric. Please try again.</value>
+  </translation>
+  <translation>
+    <key>prompt_cot_grid</key>
+    <value>Enter grid coordinate (letter+number, e.g. B6): </value>
+  </translation>
+  <translation>
+    <key>error_invalid_grid</key>
+    <value>Grid must be a letter followed by number(s), e.g. B6. Please try again.</value>
+  </translation>
+
+  <translation>
+    <key>menu_locations_title</key>
+    <value>--- Manage Locations ---</value>
+  </translation>
+  <translation>
+    <key>menu_locations_option_1</key>
+    <value>1) Reassign Person to Different Location</value>
+  </translation>
+  <translation>
+    <key>menu_locations_option_2</key>
+    <value>2) Show Person->Location Mappings</value>
+  </translation>
+  <translation>
+    <key>menu_locations_option_3</key>
+    <value>3) Search Location by ID</value>
+  </translation>
+  <translation>
+    <key>menu_locations_option_4</key>
+    <value>4) Return to Main Menu</value>
+  </translation>
+  <translation>
+    <key>reassign_person_loc</key>
+    <value>--- Reassign Person to Different Location ---</value>
+  </translation>
+  <translation>
+    <key>reassign_success</key>
+    <value>Person reassigned successfully!</value>
+  </translation>
+  <translation>
+    <key>prompt_loc_id</key>
+    <value>Location ID: </value>
+  </translation>
+  <translation>
+    <key>prompt_person_id</key>
+    <value>Person ID: </value>
+  </translation>
+  <translation>
+    <key>menu_inquiries_option_3</key>
+    <value>3) Edit Existing Inquiry</value>
+  </translation>
+  <translation>
+    <key>menu_inquiries_option_4</key>
+    <value>4) Return to Main Menu</value>
+  </translation>
+
+  <translation>
+    <key>prompt_edit_inquiry_title</key>
+    <value>--- Edit Existing Inquiry ---</value>
+  </translation>
+  <translation>
+    <key>prompt_inquiry_id</key>
+    <value>Enter the Inquiry ID to edit: </value>
+  </translation>
+  <translation>
+    <key>prompt_new_inquirer_id</key>
+    <value>New inquirer person_id (blank=skip): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_missing_id</key>
+    <value>New missing person_id (blank=skip): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_loc_id</key>
+    <value>New location_id (blank=skip): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_inquiry_date</key>
+    <value>New inquiry date (yyyy-mm-dd, blank=skip): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_inquiry_comments</key>
+    <value>New inquiry comments (blank=skip): </value>
+  </translation>
+  <translation>
+    <key>inquiry_update_success</key>
+    <value>Inquiry updated successfully.</value>
+  </translation>
+
+  <translation>
+    <key>menu_locations_option_4</key>
+    <value>4) Edit Existing Location</value>
+  </translation>
+  <translation>
+    <key>menu_locations_option_5</key>
+    <value>5) Return to Main Menu</value>
+  </translation>
+  <translation>
+    <key>prompt_edit_location_title</key>
+    <value>--- Edit Existing Location ---</value>
+  </translation>
+  <translation>
+    <key>prompt_location_id_for_edit</key>
+    <value>Enter the Location ID to edit: </value>
+  </translation>
+  <translation>
+    <key>prompt_new_location_name</key>
+    <value>New location name (blank=skip): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_location_addr</key>
+    <value>New address (blank=skip): </value>
+  </translation>
+  <translation>
+    <key>location_update_success</key>
+    <value>Location updated successfully!</value>
+  </translation>
+</translations>

@@ -1,0 +1,413 @@
+<translations>
+  <translation>
+    <key>welcome_message</key>
+    <value>Bienvenue au Système de Secours!</value>
+  </translation>
+
+  <translation>
+    <key>db_connect_fail</key>
+    <value>Impossible de se connecter à la base de données.</value>
+  </translation>
+
+  <translation>
+    <key>error_invalid_choice</key>
+    <value>Choix invalide. Réessayez.</value>
+  </translation>
+
+  <translation>
+    <key>error_invalid_number</key>
+    <value>Nombre invalide. Entrez un entier.</value>
+  </translation>
+
+  <translation>
+    <key>exit_goodbye</key>
+    <value>Fermeture du système. Au revoir!</value>
+  </translation>
+
+  <translation>
+    <key>menu_main_title</key>
+    <value>========== Menu Principal ==========</value>
+  </translation>
+  <translation>
+    <key>menu_option_1</key>
+    <value>1) Gérer Victimes</value>
+  </translation>
+  <translation>
+    <key>menu_option_2</key>
+    <value>2) Gérer Requêtes</value>
+  </translation>
+  <translation>
+    <key>menu_option_3</key>
+    <value>3) Gérer Fournitures</value>
+  </translation>
+  <translation>
+    <key>menu_option_4</key>
+    <value>4) Gérer Emplacements</value>
+  </translation>
+  <translation>
+    <key>menu_option_5</key>
+    <value>5) Quitter</value>
+  </translation>
+  <translation>
+    <key>prompt_choice</key>
+    <value>Faites votre choix:</value>
+  </translation>
+
+  <translation>
+    <key>menu_victims_title</key>
+    <value>--- Gérer les Victimes ---</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_1</key>
+    <value>1) Ajouter Victime</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_2</key>
+    <value>2) Lister Victimes</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_3</key>
+    <value>3) Définir Groupe Familial</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_4</key>
+    <value>4) Ajouter Dossier Médical</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_5</key>
+    <value>5) Rechercher Personne par ID</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_6</key>
+    <value>6) Modifier Victime Existante</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_7</key>
+    <value>7) Modifier Dossier Médical</value>
+  </translation>
+  <translation>
+    <key>menu_victims_option_8</key>
+    <value>8) Retour au Menu Principal</value>
+  </translation>
+
+  <translation>
+    <key>prompt_add_victim_title</key>
+    <value>--- Ajouter une Nouvelle Victime ---</value>
+  </translation>
+  <translation>
+    <key>prompt_first_name</key>
+    <value>Prénom: </value>
+  </translation>
+  <translation>
+    <key>prompt_last_name</key>
+    <value>Nom: </value>
+  </translation>
+  <translation>
+    <key>prompt_birth_date</key>
+    <value>Date de naissance (yyyy-mm-jj ou vide): </value>
+  </translation>
+  <translation>
+    <key>prompt_gender_options</key>
+    <value>Choisir le genre (1=Homme, 2=Femme, 3=Non-binaire): </value>
+  </translation>
+  <translation>
+    <key>prompt_phone</key>
+    <value>Numéro de téléphone (optionnel): </value>
+  </translation>
+  <translation>
+    <key>victim_insert_success</key>
+    <value>Victime ajoutée avec succès!</value>
+  </translation>
+
+  <translation>
+    <key>prompt_edit_victim_title</key>
+    <value>--- Modifier Victime Existante ---</value>
+  </translation>
+  <translation>
+    <key>prompt_new_victim_name</key>
+    <value>Nouveau prénom (vide=ignorer): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_victim_lastname</key>
+    <value>Nouveau nom (vide=ignorer): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_victim_dob</key>
+    <value>Nouvelle date de naissance (yyyy-mm-jj, vide=ignorer): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_victim_gender</key>
+    <value>Nouveau genre (1=Homme, 2=Femme, 3=Non-binaire, vide=ignorer): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_victim_phone</key>
+    <value>Nouveau téléphone (vide=ignorer): </value>
+  </translation>
+  <translation>
+    <key>victim_update_success</key>
+    <value>Victime modifiée avec succès!</value>
+  </translation>
+
+  <translation>
+    <key>menu_inquiries_title</key>
+    <value>--- Gérer les Requêtes ---</value>
+  </translation>
+  <translation>
+    <key>menu_inquiries_option_1</key>
+    <value>1) Créer Requête</value>
+  </translation>
+  <translation>
+    <key>menu_inquiries_option_2</key>
+    <value>2) Lister Requêtes</value>
+  </translation>
+  <translation>
+    <key>menu_inquiries_option_3</key>
+    <value>3) Retour au Menu Principal</value>
+  </translation>
+  <translation>
+    <key>prompt_inquiry_title</key>
+    <value>--- Créer une Requête ---</value>
+  </translation>
+  <translation>
+    <key>prompt_inquirer_id</key>
+    <value>ID de la Personne qui interroge: </value>
+  </translation>
+  <translation>
+    <key>prompt_missing_id</key>
+    <value>ID de la Personne Disparue: </value>
+  </translation>
+  <translation>
+    <key>prompt_loc_id_or_zero</key>
+    <value>ID de l'Emplacement (ou 0=null): </value>
+  </translation>
+  <translation>
+    <key>prompt_inquiry_date</key>
+    <value>Date de la requête (yyyy-mm-jj, vide=>2025-01-01): </value>
+  </translation>
+  <translation>
+    <key>prompt_inquiry_comments</key>
+    <value>Commentaires: </value>
+  </translation>
+  <translation>
+    <key>inquiry_logged_success</key>
+    <value>Requête créée avec succès!</value>
+  </translation>
+  <translation>
+    <key>list_inquiries_header</key>
+    <value>--- Toutes les Requêtes ---</value>
+  </translation>
+
+  <translation>
+    <key>menu_items_title</key>
+    <value>--- Gérer les Fournitures ---</value>
+  </translation>
+  <translation>
+    <key>menu_items_option_1</key>
+    <value>1) Ajouter Nouvelle Fourniture</value>
+  </translation>
+  <translation>
+    <key>menu_items_option_2</key>
+    <value>2) Affecter Fourniture à une Personne</value>
+  </translation>
+  <translation>
+    <key>menu_items_option_3</key>
+    <value>3) Affecter Fourniture à un Emplacement</value>
+  </translation>
+  <translation>
+    <key>menu_items_option_4</key>
+    <value>4) Lister toutes les Fournitures</value>
+  </translation>
+  <translation>
+    <key>menu_items_option_5</key>
+    <value>5) Modifier une Fourniture Existante</value>
+  </translation>
+  <translation>
+    <key>menu_items_option_6</key>
+    <value>6) Retour au Menu Principal</value>
+  </translation>
+  <translation>
+    <key>prompt_add_supply_title</key>
+    <value>--- Ajouter une Nouvelle Fourniture ---</value>
+  </translation>
+
+  <translation>
+    <key>prompt_supply_type_choice</key>
+    <value>Choisir le type de fourniture (1= objet personnel, 2= couverture, 3= eau, 4= lit de camp): </value>
+  </translation>
+
+  <translation>
+    <key>prompt_supply_comments</key>
+    <value>Commentaires (optionnel): </value>
+  </translation>
+  <translation>
+    <key>supply_insert_success</key>
+    <value>Fourniture ajoutée avec succès!</value>
+  </translation>
+
+  <translation>
+    <key>allocate_supply_person</key>
+    <value>--- Affecter une Fourniture à une Personne ---</value>
+  </translation>
+  <translation>
+    <key>prompt_supply_id</key>
+    <value>ID de la Fourniture: </value>
+  </translation>
+  <translation>
+    <key>allocation_success</key>
+    <value>Fourniture affectée avec succès!</value>
+  </translation>
+  <translation>
+    <key>allocate_supply_location</key>
+    <value>--- Affecter une Fourniture à un Emplacement ---</value>
+  </translation>
+  <translation>
+    <key>list_supplies_header</key>
+    <value>--- Toutes les Fournitures ---</value>
+  </translation>
+
+  <translation>
+    <key>prompt_edit_supply_title</key>
+    <value>--- Modifier une Fourniture Existante ---</value>
+  </translation>
+  <translation>
+    <key>prompt_existing_supply_id</key>
+    <value>Entrez l'ID de la Fourniture existante: </value>
+  </translation>
+  <translation>
+    <key>prompt_new_supply_type</key>
+    <value>Nouveau type de fourniture (vide=ignorer): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_supply_comments</key>
+    <value>Nouveaux commentaires (vide=ignorer): </value>
+  </translation>
+  <translation>
+    <key>update_supply_success</key>
+    <value>Fourniture modifiée avec succès!</value>
+  </translation>
+
+  <translation>
+    <key>prompt_cot_room</key>
+    <value>Entrez le numéro de chambre (cot) : </value>
+  </translation>
+  <translation>
+    <key>error_invalid_room</key>
+    <value>La chambre doit être numérique. Réessayez.</value>
+  </translation>
+  <translation>
+    <key>prompt_cot_grid</key>
+    <value>Entrez la grille (lettre + nombre, ex: B6) : </value>
+  </translation>
+  <translation>
+    <key>error_invalid_grid</key>
+    <value>La grille doit être une lettre suivie d'un/des chiffre(s), ex: B6. Réessayez.</value>
+  </translation>
+
+  <translation>
+    <key>menu_locations_title</key>
+    <value>--- Gérer les Emplacements ---</value>
+  </translation>
+  <translation>
+    <key>menu_locations_option_1</key>
+    <value>1) Réassigner Personne à un Emplacement</value>
+  </translation>
+  <translation>
+    <key>menu_locations_option_2</key>
+    <value>2) Voir la Liste Personne->Emplacement</value>
+  </translation>
+  <translation>
+    <key>menu_locations_option_3</key>
+    <value>3) Rechercher un Emplacement par ID</value>
+  </translation>
+  <translation>
+    <key>menu_locations_option_4</key>
+    <value>4) Retour au Menu Principal</value>
+  </translation>
+  <translation>
+    <key>reassign_person_loc</key>
+    <value>--- Réassigner une Personne ---</value>
+  </translation>
+  <translation>
+    <key>reassign_success</key>
+    <value>Personne réassignée avec succès!</value>
+  </translation>
+  <translation>
+    <key>prompt_loc_id</key>
+    <value>ID de l'Emplacement: </value>
+  </translation>
+
+  <translation>
+    <key>menu_inquiries_option_3</key>
+    <value>3) Modifier Requête Existante</value>
+  </translation>
+  <translation>
+    <key>menu_inquiries_option_4</key>
+    <value>4) Retour au Menu Principal</value>
+  </translation>
+
+  <translation>
+    <key>prompt_edit_inquiry_title</key>
+    <value>--- Modifier Requête Existante ---</value>
+  </translation>
+  <translation>
+    <key>prompt_inquiry_id</key>
+    <value>Entrez l'ID de la Requête: </value>
+  </translation>
+  <translation>
+    <key>prompt_new_inquirer_id</key>
+    <value>Nouveau inquirer person_id (vide=ignorer): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_missing_id</key>
+    <value>Nouveau missing person_id (vide=ignorer): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_loc_id</key>
+    <value>Nouvel location_id (vide=ignorer): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_inquiry_date</key>
+    <value>Nouvelle date (yyyy-mm-jj, vide=ignorer): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_inquiry_comments</key>
+    <value>Nouveaux commentaires (vide=ignorer): </value>
+  </translation>
+  <translation>
+    <key>inquiry_update_success</key>
+    <value>Requête modifiée avec succès!</value>
+  </translation>
+
+  <translation>
+    <key>menu_locations_option_4</key>
+    <value>4) Modifier Emplacement Existante</value>
+  </translation>
+  <translation>
+    <key>menu_locations_option_5</key>
+    <value>5) Retour au Menu Principal</value>
+  </translation>
+  <translation>
+    <key>prompt_edit_location_title</key>
+    <value>--- Modifier Emplacement Existante ---</value>
+  </translation>
+  <translation>
+    <key>prompt_location_id_for_edit</key>
+    <value>Entrez l'ID de l'Emplacement: </value>
+  </translation>
+  <translation>
+    <key>prompt_new_location_name</key>
+    <value>Nouveau nom d'emplacement (vide=ignorer): </value>
+  </translation>
+  <translation>
+    <key>prompt_new_location_addr</key>
+    <value>Nouvelle adresse (vide=ignorer): </value>
+  </translation>
+  <translation>
+    <key>location_update_success</key>
+    <value>Emplacement modifié avec succès!</value>
+  </translation>
+  <translation>
+    <key>prompt_person_id</key>
+    <value>ID de la personne: </value>
+  </translation>
+</translations>
