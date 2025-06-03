@@ -47,7 +47,25 @@ The diagram helped ensure compliance with **OOP principles** such as **encapsula
 
 ---
 
-## 4&nbsp;&nbsp;Testing Strategy  
+## 4   Object-Oriented Design Principles
+
+This project was architected with a strong focus on **Object-Oriented Programming (OOP)** principles. Each core principle was deliberately followed and reflected in the system’s structure:
+
+| Principle | Application in This Project |
+|-----------|------------------------------|
+| **Encapsulation** | Data and logic were bundled in domain classes like `DisasterVictim`, `Item`, and `Location`. Validation is enforced in setters to maintain internal state integrity. |
+| **Abstraction** | Higher-level interfaces (e.g., `UserInterface`, `DatabaseAccess`) hide implementation details and simplify usage. |
+| **Inheritance** | Shared behavior across supply types is captured in the `Item` superclass, extended by `Water`, `Cot`, `Blanket`, and `PersonalBelonging`. |
+| **Polymorphism** | Items and persons can be interacted with through their base types (`Item`, `Person`) regardless of the specific subtype. |
+| **Modularity** | Responsibilities were clearly divided across 21 classes, promoting single-responsibility and testability. |
+| **Separation of Concerns** | Database logic, UI flow, domain modeling, and language handling are all isolated into their own layers. |
+| **Reusability & Extensibility** | Adding a new item type or database operation requires minimal changes due to the use of interfaces, factories, and builders. |
+
+These principles guided the development and testing process, making the system easier to maintain, test, and scale.
+
+---
+
+## 5&nbsp;&nbsp;Testing Strategy  
 
 * **JUnit 4** + **Hamcrest**; one test-class per production-class – 21 test files.  
 * **AAA pattern** in every test; single assert per scenario; descriptive names (`testUpdatePersonInvalidDOB_throws`).  
@@ -57,9 +75,9 @@ The diagram helped ensure compliance with **OOP principles** such as **encapsula
 
 ---
 
-## 5&nbsp;&nbsp;Database Setup & Running
+## 6&nbsp;&nbsp;Database Setup & Running
 
-### 5.1 Create the PostgreSQL schema
+### 6.1 Create the PostgreSQL schema
 
 ```bash
 psql -U postgres
