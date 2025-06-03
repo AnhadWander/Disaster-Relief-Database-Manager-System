@@ -1,11 +1,11 @@
-# Disaster-Relief-Database-Manager-System
+# Disaster-Relief Information System  
 *Command-Line Edition with PostgreSQL back-end & multi-language support*  
 
 ---
 
 ## 1&nbsp;&nbsp;Project Overview  
 After large-scale natural disasters relief workers need a **single source of truth** to track displaced people, medical care, supplies, inquiries from relatives, and shelter locations.  
-This project delivers a **self-contained command-line application** that
+This project delivers a **self-contained command-line application** that:
 
 * registers disaster victims, their relationships & medical history  
 * logs inquiries and links them to missing persons and locations  
@@ -36,7 +36,13 @@ The entire solution is built in **Java 21**, uses only the official **PostgreSQL
 
 ---
 
-## 3&nbsp;&nbsp;Testing Strategy  
+## 3&nbsp;&nbsp;UML
+
+![System UML Diagram](./UML-1.png)
+
+---
+
+## 4&nbsp;&nbsp;Testing Strategy  
 
 * **JUnit 4** + **Hamcrest**; one test-class per production-class – 21 test files.  
 * **AAA pattern** in every test; single assert per scenario; descriptive names (`testUpdatePersonInvalidDOB_throws`).  
@@ -46,23 +52,7 @@ The entire solution is built in **Java 21**, uses only the official **PostgreSQL
 
 ---
 
-## 4&nbsp;&nbsp;Technical Skills Demonstrated  
-
-| Category | Tools & Practices |
-|----------|------------------|
-| **Languages & Build** | Java 21, standard library, modular design |
-| **Data layer** | PostgreSQL DDL, JDBC, prepared statements, connection pooling via Singleton |
-| **Testing** | JUnit 4.13.2, Hamcrest 1.3, mock objects, coverage automation |
-| **Design Patterns** | Singleton (DB), Builder (supply add flow), Observer (water expiry notifier), Strategy (dynamic language selection), MVC-lite CLI |
-| **OOP Principles** | SOLID, separation of concerns, inheritance hierarchies, encapsulation with validation |
-| **Internationalisation** | External XML resource packs, runtime detection |
-| **Error Handling** | Exception bubbling + central file logger |
-| **Documentation** | Full Javadoc headers; auto-generated via the `javadoc` tool |
-| **DevOps** | Ready-to-run SQL bootstrap (`project.sql`), README setup, Git version control, CI-friendly test suite |
-
----
-
-## 5  Database Setup & Running
+## 5&nbsp;&nbsp;Database Setup & Running
 
 ### 5.1 Create the PostgreSQL schema
 
